@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T20:16:17.221Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="JZcuqZcUqV8BhckkBh7R" version="18.0.2" type="github">
-  <diagram id="5CXnMuTSALJAE7JCGa5N" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2022-05-10T21:07:13.518Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="fs-QOODIhMQaCjChyaB9" version="18.0.2" type="github" pages="2">
+  <diagram id="5CXnMuTSALJAE7JCGa5N" name="SdF">
     <mxGraphModel dx="1501" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -82,6 +82,59 @@
         </mxCell>
         <mxCell id="6HV9-h4NKRvqSwP5TKIK-19" value="PBS&lt;br&gt;(Proxmox Backup Server)" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png;rounded=1;shadow=1;glass=0;sketch=0;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fillColor=#FFFF00;" vertex="1" parent="1">
           <mxGeometry x="810" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1kJfrF6xHq2oso86Jo8d" name="SdP">
+    <mxGraphModel dx="1501" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Z_nwUQK-f8jlyIovFnVe-1" value="LT0 - Ingresso" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#147EBA;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=1;rounded=1;shadow=1;glass=0;sketch=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="70" y="30" width="420" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="dz27J5w4RVdZm4Y3wDuL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="Z_nwUQK-f8jlyIovFnVe-1" source="dz27J5w4RVdZm4Y3wDuL-1" target="dz27J5w4RVdZm4Y3wDuL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dz27J5w4RVdZm4Y3wDuL-1" value="Modem ADSL Telecom" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/modem.svg;" vertex="1" parent="Z_nwUQK-f8jlyIovFnVe-1">
+          <mxGeometry x="50" y="40" width="50" height="41.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dz27J5w4RVdZm4Y3wDuL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="Z_nwUQK-f8jlyIovFnVe-1" source="dz27J5w4RVdZm4Y3wDuL-2" target="dz27J5w4RVdZm4Y3wDuL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dz27J5w4RVdZm4Y3wDuL-2" value="Ubiquity USG" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png;rounded=1;shadow=1;glass=0;sketch=0;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fillColor=none;" vertex="1" parent="Z_nwUQK-f8jlyIovFnVe-1">
+          <mxGeometry x="170" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dz27J5w4RVdZm4Y3wDuL-3" value="Ubiquity Wifi" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.wi_fi;rounded=1;glass=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="Z_nwUQK-f8jlyIovFnVe-1">
+          <mxGeometry x="330" y="20" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dz27J5w4RVdZm4Y3wDuL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="Z_nwUQK-f8jlyIovFnVe-1" source="dz27J5w4RVdZm4Y3wDuL-4" target="dz27J5w4RVdZm4Y3wDuL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dz27J5w4RVdZm4Y3wDuL-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="Z_nwUQK-f8jlyIovFnVe-1" source="dz27J5w4RVdZm4Y3wDuL-4" target="dz27J5w4RVdZm4Y3wDuL-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dz27J5w4RVdZm4Y3wDuL-4" value="Switch esistente" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png;rounded=1;shadow=1;glass=0;sketch=0;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fillColor=none;" vertex="1" parent="Z_nwUQK-f8jlyIovFnVe-1">
+          <mxGeometry x="50" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dz27J5w4RVdZm4Y3wDuL-12" value="VMLabs" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/storage/Datacenter_Server_Half_Rack_ToR.svg;rounded=1;glass=0;sketch=0;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fillColor=none;" vertex="1" parent="Z_nwUQK-f8jlyIovFnVe-1">
+          <mxGeometry x="220" y="220" width="88.2" height="114.6" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_nwUQK-f8jlyIovFnVe-2" value="LT1 - Salone" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#147EBA;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=1;rounded=1;shadow=1;glass=0;sketch=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="680" y="414" width="420" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="dz27J5w4RVdZm4Y3wDuL-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="Z_nwUQK-f8jlyIovFnVe-2" source="dz27J5w4RVdZm4Y3wDuL-5" target="dz27J5w4RVdZm4Y3wDuL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dz27J5w4RVdZm4Y3wDuL-5" value="Switch" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png;rounded=1;shadow=1;glass=0;sketch=0;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fillColor=none;" vertex="1" parent="Z_nwUQK-f8jlyIovFnVe-2">
+          <mxGeometry x="40" y="46" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dz27J5w4RVdZm4Y3wDuL-6" value="Ubiquity Wifi" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.wi_fi;rounded=1;glass=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="Z_nwUQK-f8jlyIovFnVe-2">
+          <mxGeometry x="200" y="46" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dz27J5w4RVdZm4Y3wDuL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="dz27J5w4RVdZm4Y3wDuL-4" target="dz27J5w4RVdZm4Y3wDuL-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
